@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#jogo-da-velha {
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: red;
+}
+.opcao-jogo {
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: arial;
+    font-size: 80px;
+}
+#resultado-partida {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-family: arial;
+    margin-top: 10px;
+}
